@@ -1,0 +1,24 @@
+<div ng-controller="navbarController">
+    <nav>
+        <li class="list-unstyled main-menu">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/"><i class="fa fa-home fa-fw"></i>&nbsp;&nbsp;&nbsp;Home</a></li>
+                <!--li><a href="#/sample"><i class="fa fa-line-chart fa-fw"></i>&nbsp;&nbsp;&nbsp;Sample Dashboard</a></li-->
+                <li><a href="#/about"><i class="fa fa-info fa-fw"></i>&nbsp;&nbsp;&nbsp;About Android Care</a></li>
+				<li><a href="#/tech"><i class="fa fa-gear fa-spin fa-fw"></i>&nbsp;&nbsp;&nbsp;Technologies</a></li>
+				<li><a href="#/me"><i class="fa fa-info fa-fw"></i>&nbsp;&nbsp;&nbsp;About Me</a></li>
+                <!--li><a href="#/contact"><i class="fa fa-envelope fa-fw"></i>&nbsp;&nbsp;&nbsp;Contact</a></li-->
+                <li><a href="https://androidcare.pythonanywhere.com" target="_blank"><i class="fa fa-external-link fa-fw"></i>&nbsp;&nbsp;&nbsp;User Application</a></li>
+            </ul>
+        </li>
+    </nav>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <a class="navbar-brand" href="#/"><img class="niceIcon" src="images/careWear.png"/>Android Care</a>
+        <div class="navbar-header pull-right">
+
+            <a id="nav-expander" class="nav-expander fixed" ng-click="menuExpanded = true">
+                <i class="fa fa-bars fa-2x white"></i>
+            </a>
+        </div>
+    </div>
+</div>
